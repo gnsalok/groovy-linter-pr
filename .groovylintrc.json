@@ -48,7 +48,7 @@
       },
       "UnnecessaryGetter": {
         "enabled": false
-      },
+      },    
       "UnnecessaryObjectReferences": {
         "enabled": false
       },
