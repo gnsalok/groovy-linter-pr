@@ -13,3 +13,9 @@ class Product {
 def products = [new Product(name: 'laptop', price: 999), new Product(name: 'netbook', price: 395)]
  
 assert 1394 == products.sum()
+
+
+
+int multiply(){
+    return 'Multiply'
+}
