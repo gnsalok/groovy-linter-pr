@@ -3,6 +3,7 @@
 # More info at https://nvuillam.github.io/mega-linter
 name: Mega-Linter
 
+ENABLE: GROOVY
 on:
   # Trigger mega-linter at every push. Action will also be visible from Pull Requests to master
   push: # Comment this line to trigger action only on pull-requests (not recommended if you don't pay for GH Actions)
