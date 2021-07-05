@@ -1,10 +1,3 @@
-// #!groovy
-// import groovy.json.JsonOutput
-
-// def checkoutCommitHash() {
-//     checkout scm
-//     if(!env.BUILD_COMMIT_HASH) {
-//         env.BUILD_COMMIT_HASH = getCommitHash()
-//     }
-//     sh "git checkout $BUILD_COMMIT_HASH"
-// }
+orin({
+    fsdkjlfa
+}
