@@ -1,4 +1,4 @@
 #!groovy
-orin({
-    fsdkjlfa
+def returnMessage(){
+    return "Hello world"
 }
