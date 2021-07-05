@@ -15,7 +15,7 @@ def test(){
 
     
 
-def getCommitHash {
+def getCommitHash() {
     def gitCommit = sh(returnStdout: true, script: 'git rev-parse HEAD').trim()
     return gitCommit
 }
