@@ -9,17 +9,18 @@ def checkoutCommitHash() {
     sh "git checkout $BUILD_COMMIT_HASH"
 }
 
-def test({
+def test(){
+    return "test"
+}
 
     
-}
 
 def getCommitHash {
     def gitCommit = sh(returnStdout: true, script: 'git rev-parse HEAD').trim()
     return gitCommit
 }
 
-def getCurrentBranch() {}
+def getCurrentBranch() {
     sh(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD').trim()
 }
 

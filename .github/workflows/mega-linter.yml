@@ -45,7 +45,6 @@ jobs:
         uses: nvuillam/mega-linter/flavors/java@v4
         env:
           ENABLE: GROOVY
-          FILTER_REGEX_INCLUDE : (src/)
           # All available variables are described in documentation
           # https://nvuillam.github.io/mega-linter/configuration/
           VALIDATE_ALL_CODEBASE: true # Set ${{ github.event_name == &#39;push&#39; &amp;&amp; github.ref == &#39;refs/heads/master&#39; }} to validate only diff with master branch
