@@ -8,5 +8,7 @@ class Student {
       st.StudentName = "Joe  
 
       print(st)
+
+      print("Hello world")
    } 
 }
