@@ -1,0 +1,61 @@
+{
+    "extends": "recommended",
+    "rules": {
+        "basic.DeadCode": "error",
+        "convention.CompileStatic": "off",
+        "convention.GrailsCompileStatic": "off",
+        "convention.CompileDynamic": "off",
+        "convention.FileEndsWithoutNewline": "off",
+        "convention.FieldTypeRequired": "info",
+        "convention.IfStatementCouldBeTernary": "info",
+        "convention.TrailingComma": "off",
+        "dry.DuplicateListLiteral": "info",
+        "dry.DuplicateMapLiteral": "warning",
+        "dry.DuplicateNumberLiteral": {
+            "ignoreNumbers": [
+                0,
+                1,
+                2,
+                3,
+                -1
+            ],
+            "severity": "error"
+        },
+        "dry.DuplicateStringLiteral": "info",
+        "exceptions.ThrowException": "info",
+        "exceptions.ThrowNullPointerException": "info",
+        "exceptions.ThrowRuntimeException": "info",
+        "exceptions.ThrowThrowable": "info",
+        "formatting.BracesForClass": "info",
+        "formatting.BracesForForLoop": "info",
+        "formatting.BracesForIfElse": "info",
+        "formatting.BracesForMethod": "info",
+        "formatting.BracesForTryCatchFinally": "info",
+        "formatting.Indentation": {
+            "spacesPerIndentLevel": 4,
+            "severity": "info"
+        },
+        "formatting.SpaceAroundMapEntryColon": "off",
+        "logging.Println": "off",
+        "unused.UnusedArray": "error",
+        "unused.UnusedObject": "error",
+        "unused.UnusedPrivateField": "error",
+        "unused.UnusedPrivateMethod": "error",
+        "unused.UnusedPrivateMethodParameter": "error",
+        "unnecessary.UnnecessaryReturnKeyword": "off",
+        "convention.NoDef": "off",
+        "convention.VariableTypeRequired": "off",
+        "convention.MethodReturnTypeRequired": "off",
+        "groovyism.ExplicitCallToEqualsMethod": "off",
+        "groovyism.GStringExpressionWithinString": "off",
+        "naming.VariableName": "off",
+        "naming.FactoryMethodName": "off",
+        "unnecessary.UnnecessaryGetter": "off",
+        "size.NestedBlockDepth": {
+            "maxNestedBlockDepth": 10
+        },
+        "unused.UnusedVariable": {
+            "ignoreVariableNames": "_"
+        }
+    }
+}
