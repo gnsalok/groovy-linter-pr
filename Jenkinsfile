@@ -14,7 +14,7 @@ pipeline{
                 }
             }
                 steps {
-                    sh '/entrypoint.sh'
+                   echo 'Linting Mega Linter'
                 }
         }
     }
