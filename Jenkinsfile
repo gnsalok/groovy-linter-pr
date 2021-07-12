@@ -13,7 +13,9 @@ pipeline{
                     reuseNode true
                 }
             }
-            
+            steps {
+                echo "Lining workspace"
+            }
         }
     }
 
