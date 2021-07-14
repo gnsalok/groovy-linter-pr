@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-GROOVYPATH=$GROOVYPATH:$(pwd)
-export GROOVYPATH
+WORKSPACE=$WORKSPACE:$(pwd)
+export WORKSPACE
 
