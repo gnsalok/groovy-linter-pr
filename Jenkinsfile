@@ -1,5 +1,7 @@
 pipeline{
-    agent any 
+     agent {
+    label 'docker' 
+  }
     stages{
     // Lint with Mega-Linter: https://nvuillam.github.io/mega-linter/
         stage('Mega-Linter') {
